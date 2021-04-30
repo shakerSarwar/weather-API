@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather API Practice Project by Monir H</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="assets/style.css" media="all" />
+    </head>
+    <body>
+        <header>
+            <h1>Weather API</h1>
+            <p>JavaScript API Practice Project by Monir H</p>
+        </header>
+
+        <main class="weather">
+            <div class="input">
+                <input id="inputCityName" class="form-control" type="text">
+                <input id="submitBtn" type="submit" value="Search">
+            </div>
+            <div class="card">
+                <img id="showIcon" src="" alt="">
+                <h1> <span id="showCityName"></span> , <span id="showCountry"></span> </h2>
+                <h2 class="mark"><span id="showTemp"></span>&deg;C</h2>
+                <h3 id="showStatus"></h3>
+                <h5 id="showDesc"></h5>
+            </div>
+        </main>
+
+        <footer>
+            <p>Copyright &copy; 2021 All rights reserved | This template is made with <span class="icons icon-heart"></span> by <a href="http://monirh.com">Monir H</a></p>
+        </footer>
+
+        <script src="assets/app.js"></script>
+    </body>
+</html>
